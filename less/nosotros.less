@@ -1,0 +1,51 @@
+@import "style.less";
+
+.head {
+	background-color: @primary-color;
+	color: @secondary-color;
+	text-align: center;
+	padding: 50px 20px;
+}
+
+.container {
+	margin: 50px auto;
+	max-width: 800px;
+}
+
+.about {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.imagen {
+	flex-basis: 40%;
+}
+
+.imagen img {
+	max-width: 100%;
+}
+
+.about-content {
+	flex-basis: 60%;
+	padding: 20px;
+}
+
+.about-content h2 {
+	margin-top: 0;
+}
+
+.about-content p {
+	line-height: 1.6;
+}
+
+.leermas {
+	display: block;
+	text-align: right;
+	color: @primary-color;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+.leermas:hover {
+	text-decoration: underline;
+}
